@@ -5,7 +5,6 @@
 }
 
 html, body {
- max-width: 100%;
  overflow-x: hidden;
   max-width: 1100px;
   margin: 0 auto;
@@ -189,7 +188,7 @@ a {
 .lots {
   position: relative;
   width: 1100px;
-  margin-top: 125px;
+  margin-top: 140px;
 }
 
 .lots_heading {
@@ -257,7 +256,7 @@ bottom: 145px;
 z-index: 2;
 }
 
-.card_title_book{
+.card_title_book {
 position: relative;
 font-weight: 700;
 text-transform: uppercase;
