@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
+ max-width: 100%;
+ overflow-x: hidden;
   max-width: 1100px;
-  width: 100%;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
@@ -206,7 +207,6 @@ a {
   padding: 0 30px;
 }
 
-/* Унифицированные стили карточек */
 .card,
 .card_book,
 .card_picture {
@@ -236,7 +236,6 @@ a {
   background-image: url("/images/card-lot-03.jpg");
 }
 
-/* Затемнение — одинаковое для всех */
 .card::before,
 .card_book::before,
 .card_picture::before {
@@ -247,7 +246,7 @@ a {
   z-index: 1;
 }
 
-/* Заголовки */
+
 .card_title_film,
 .card_title_book,
 .card_title_picture {
@@ -259,7 +258,7 @@ a {
   z-index: 2;
 }
 
-/* Текст */
+
 .card_text_film,
 .card_text_book,
 .card_text_picture {
@@ -268,7 +267,6 @@ a {
   z-index: 2;
 }
 
-/* Ссылка "посмотреть больше" */
 .lots__look-more-link {
   position: relative;
   top: 30px;
@@ -277,8 +275,6 @@ a {
   padding: 0 0 40px 40px;
   text-underline-offset: 4px;
 }
-
-
 
 .about {
   display: grid;
