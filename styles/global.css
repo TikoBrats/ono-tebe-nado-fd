@@ -103,7 +103,10 @@ a {
 
 .overlay {
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
@@ -184,8 +187,7 @@ a {
 
 .lots {
   position: relative;
-  max-width: 1100px;
-  width: 100%;
+  width: 1100px;
   margin: 0 auto;
 }
 
@@ -199,19 +201,27 @@ a {
 .lots_list {
   list-style: none;
   display: flex;
+  flex-direction: row;
   gap: 25px;
+  padding: 0 30px;
 }
 
+/* Унифицированные стили карточек */
 .card,
 .card_book,
 .card_picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
+  width: 334px;
+  height: 596px;
+  padding: 50px 40px 40px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 334px;
-  height: 596px;
   z-index: 2;
+  color: white;
 }
 
 .card {
@@ -226,50 +236,39 @@ a {
   background-image: url("/images/card-lot-03.jpg");
 }
 
-.card_overlay {
+/* Затемнение — одинаковое для всех */
+.card::before,
+.card_book::before,
+.card_picture::before {
+  content: "";
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
+  inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
 
+/* Заголовки */
 .card_title_film,
 .card_title_book,
 .card_title_picture {
   position: relative;
   font-weight: 700;
-  padding: 50px 40px 0;
   text-transform: uppercase;
-  text-underline-offset: 3px;
   font-size: 22px;
   text-decoration: underline;
-  color: white;
   z-index: 2;
 }
 
-.card_text_film {
-  position: relative;
-  padding: 285px 40px 0 40px;
-  font-size:20px;
-  color: white;
-  z-index: 2;
-}
-.card_text_book {
-  position: relative;
-  padding: 35px 40px 0 40px;
-  font-size:20px;
-  color: white;
-  z-index: 2;
-}
-
+/* Текст */
+.card_text_film,
+.card_text_book,
 .card_text_picture {
   position: relative;
-  padding: 130px 40px 0px 40px;
-  font-size:20px;
-  color: white;
+  font-size: 20px;
   z-index: 2;
 }
 
+/* Ссылка "посмотреть больше" */
 .lots__look-more-link {
   position: relative;
   top: 30px;
@@ -278,6 +277,7 @@ a {
   padding: 0 0 40px 40px;
   text-underline-offset: 4px;
 }
+
 
 
 .about {
