@@ -17,7 +17,7 @@ body {
   height: 293px;
   width: 1100px;
 }
-.header_menu_item{
+.header_menu_item {
   list-style-type: circle;
 }
 .header_menu_list {
@@ -31,7 +31,7 @@ body {
   bottom: 5px;
   left:55px;
 }
-.header_menu_link1{
+.header_menu_link1 {
   list-style-type: circle;
   text-decoration: none;
 }
@@ -93,7 +93,7 @@ bottom: 5px;
   z-index: 2; 
   color: white;
 }
-  .cover_description{
+  .cover_description {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -231,7 +231,7 @@ gap: 25px;
   color: white;
   z-index: 2;
 }
-.card_title_picture{
+.card_title_picture {
   text-underline-offset: 4px;
   position: relative;
   font-weight: 700;
@@ -279,8 +279,8 @@ text-underline-offset: 4px;
 }
 .about {
   display: grid;
-  width: 1052px;
-  height: 595px;
+  width: 1052;
+  height: 595;
 }
 .about_logo {
   position: relative;
@@ -367,7 +367,7 @@ margin-right: 350px;
 }
 .footer_social-list {
   position: relative;
-  bottom: 75px;
+  bottom: 74px;
   list-style: none;
   display: flex;
   flex-direction: row;
