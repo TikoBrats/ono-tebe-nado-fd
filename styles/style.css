@@ -255,8 +255,8 @@ z-index: 2;
   font-weight: 700;
   padding-top: 60px;
   text-transform: uppercase;
-  left: 400px;
-  bottom: 100px;
+  left: 390px;
+  bottom: 110px;
 }
 
 .about_text {
@@ -268,11 +268,12 @@ z-index: 2;
   display: flex;
   flex-direction: column;
   padding-left: 400px;
-  bottom: 70px;
+  bottom: 100px;
+  right: 20px;
 }
 
 .footer {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 
 .contact_address,
