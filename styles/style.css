@@ -166,9 +166,8 @@ padding-bottom: 70px;
 .lots_list {
   list-style: none;
   display: flex;
-  flex-direction: row;
   gap: 25px;
-  padding: 0 30px;
+  flex-wrap: wrap;
 }
 
 .card,
