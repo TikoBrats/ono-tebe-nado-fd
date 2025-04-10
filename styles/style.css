@@ -266,7 +266,7 @@ z-index: 2;
 .footer {
   display: grid;
   grid-template-columns:1fr max-content 1fr;
-  padding-top: 92px;
+  padding-top: 52px;
 }
 .contact_address {
   padding-bottom: 94px;
