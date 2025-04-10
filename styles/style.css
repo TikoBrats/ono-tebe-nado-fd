@@ -227,7 +227,7 @@ z-index: 2;
 }
 
 .about_logo {
-  margin-top: 205px;
+  margin-top: 190px;
   margin-left: 73px;
   background-color: black;
   width: 240px;
@@ -259,14 +259,14 @@ z-index: 2;
   gap: 25px;
   padding-bottom: 20px;
   margin-top: 100px;
-  padding-left: 56px;
+  padding-left: 50px;
   padding-right: 20px;
 }
 
 .footer {
   display: grid;
   grid-template-columns:1fr max-content 1fr;
-  padding-top: 52px;
+  padding-top: 65px;
 }
 .contact_address {
   padding-bottom: 94px;
