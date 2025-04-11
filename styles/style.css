@@ -229,7 +229,7 @@ z-index: 2;
 }
 
 .about_logo {
-  margin-top: 125px;
+  margin-top: 155px;
   margin-left: 73px;
   background-color: black;
   width: 240px;
@@ -244,6 +244,7 @@ z-index: 2;
 }
 
 .about_title {
+  display: block;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
