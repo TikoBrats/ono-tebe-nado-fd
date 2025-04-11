@@ -185,7 +185,7 @@ margin-left: 4px;
 
 .card {
   background-image: url("../images/card-lot-01.jpg");
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 .book {
@@ -195,7 +195,7 @@ margin-left: 4px;
 
 .picture {
   background-image: url("../images/card-lot-03.jpg");
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 .card__title {
