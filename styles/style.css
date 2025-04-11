@@ -298,14 +298,13 @@ z-index: 2;
 
 .footer_social-list {
   position: relative;
-  bottom: 60px;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   gap: 48px;
   margin-right: 48px;
-  padding-top: 180px;
+  padding-top: 105px;
 
 }
 
