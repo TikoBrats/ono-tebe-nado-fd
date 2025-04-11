@@ -269,6 +269,7 @@ z-index: 2;
   display: grid;
   grid-template-columns:1fr max-content 1fr;
   padding-top: 50px;
+  padding-bottom: 15px;
 }
 .contact_address {
   padding-bottom: 94px;
