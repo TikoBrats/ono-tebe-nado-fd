@@ -185,14 +185,17 @@ margin-left: 4px;
 
 .card {
   background-image: url("../images/card-lot-01.jpg");
+  margin-left: 10px;
 }
 
 .book {
   background-image: url("../images/card-lot-02.jpg");
+  margin-left: 6px;
 }
 
 .picture {
   background-image: url("../images/card-lot-03.jpg");
+  margin-right: 2px;
 }
 
 .card__title {
