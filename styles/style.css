@@ -225,7 +225,7 @@ z-index: 2;
   display: grid;
   max-width: 1100px;
   grid-template-columns: 334px 1fr;
-  padding-bottom:15px;
+  padding-bottom: 10px;
 }
 
 .about_logo {
@@ -247,7 +247,7 @@ z-index: 2;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 270px;
+  margin-top: 260px;
   margin-left: 47px;
 }
 
