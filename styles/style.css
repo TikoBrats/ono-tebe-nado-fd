@@ -47,7 +47,7 @@
   display: flex;
   justify-content: flex-end;
   margin-bottom: 5px;
-  margin-right: 60px;
+  margin-right: 75px;
   justify-self: end;
 }
 .cover {
@@ -283,7 +283,7 @@ z-index: 2;
   list-style: none;
   font-size: 19px;
   text-underline-offset: 4px;
-  padding-top: 86px;
+  padding-top: 105px;
 }
 
 .footer__menu-link {
@@ -304,7 +304,7 @@ z-index: 2;
   justify-content: flex-end;
   gap: 48px;
   margin-right: 45px;
-  padding-top: 155px;
+  padding-top: 175px;
 
 }
 
