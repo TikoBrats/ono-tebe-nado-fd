@@ -162,7 +162,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   flex-wrap: wrap;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .card {
@@ -182,7 +182,7 @@
 
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
-  margin-left: 25px;
+  margin-left: 23px;
 }
 
 .card_type_book {
@@ -191,7 +191,7 @@
 
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-  margin-right: 25px;
+  margin-right: 23px;
 }
 
 .card__title {
