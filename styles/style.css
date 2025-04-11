@@ -47,7 +47,7 @@
   display: flex;
   justify-content: flex-end;
   margin-bottom: 5px;
-  margin-right: 65px;
+  margin-right: 35px;
   justify-self: end;
 }
 .cover {
@@ -144,9 +144,11 @@
 .lots {
   width: 1100px;
   min-height: 723px;
-  margin: 180px 24px 120px;
+  margin-top: 150px;
 }
-
+.lots_item {
+margin-left: 4px;
+}
 .lots_heading {
   font-size: 40px;
   font-weight: 700;
@@ -163,6 +165,7 @@
   flex-wrap: wrap;
   margin-top: 25px;
 }
+
 .card,
 .book,
 .picture {
@@ -264,7 +267,7 @@ z-index: 2;
 .footer {
   display: grid;
   grid-template-columns:1fr max-content 1fr;
-  margin-top: 150px;
+  padding-top: 65px;
 }
 .contact_address {
   padding-bottom: 94px;
