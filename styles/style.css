@@ -10,7 +10,7 @@
 }
 
 .header_menu_list {
-  margin-left: 35px;
+  margin-left: 38px;
   font-size: 19px;
   display: flex;
   gap: 32px;
@@ -31,7 +31,7 @@
 .header_logo-image {
   display: flex;
   justify-content: center;
-  width: 129px;
+  width: 148px;
   height: 105px;
 }
 .address {
@@ -42,6 +42,9 @@
 }
 .address a {
   text-underline-offset: 4px;
+}
+.address p {
+  padding-top: 2px;
 }
 .header_address {
   display: flex;
@@ -271,8 +274,8 @@ z-index: 2;
 }
 .contact_address {
   padding-bottom: 94px;
-  padding-top: 90px;
-  padding-left: 45px;
+  padding-top: 100px;
+  padding-left: 50px;
 }
 .footer_menu_list {
   display: flex;
@@ -301,8 +304,8 @@ z-index: 2;
   flex-direction: row;
   justify-content: flex-end;
   gap: 48px;
-  margin-right: 45px;
-  padding-top: 175px;
+  margin-right: 48px;
+  padding-top: 180px;
 
 }
 
