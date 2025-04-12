@@ -275,7 +275,7 @@ z-index: 2;
 .contact_address {
   display: flex;
   padding-bottom: 94px;
-  padding-top: 140px;
+  padding-top: 152px;
   padding-left: 50px;
 }
 .footer_menu_list {
@@ -285,7 +285,7 @@ z-index: 2;
   list-style: none;
   font-size: 19px;
   text-underline-offset: 4px;
-  margin-top: 140px;
+  margin-top: 152px;
 }
 
 .footer__menu-link {
@@ -305,7 +305,7 @@ z-index: 2;
   justify-content: flex-end;
   gap: 48px;
   margin-right: 48px;
-  padding-top: 140px;
+  padding-top: 152px;
 }
 
 .footer_social-icon {
