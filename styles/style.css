@@ -274,7 +274,7 @@ z-index: 2;
   grid-template-columns:1fr 1fr 1fr;
   align-items: start;
   min-height: 180px;
-  padding-top: 240px;
+  padding-top: 140px;
   padding-bottom: 100px;
 }
 .contact_address {
