@@ -273,10 +273,9 @@ z-index: 2;
   display: grid;
   grid-template-columns:1fr max-content 1fr;
   align-items: start;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 .contact_address {
-  display: flex;
   padding-left: 50px;
 }
 .footer_menu_list {
