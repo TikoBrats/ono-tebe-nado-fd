@@ -275,7 +275,7 @@ z-index: 2;
 .contact_address {
   display: flex;
   padding-bottom: 94px;
-  padding-top: 113px;
+  padding-top: 130px;
   padding-left: 50px;
   line-height: 1.2;
 }
@@ -286,7 +286,7 @@ z-index: 2;
   list-style: none;
   font-size: 19px;
   text-underline-offset: 4px;
-  padding-top: 113px;
+  padding-top: 130x;
   line-height: 1.2;
 }
 
@@ -307,7 +307,7 @@ z-index: 2;
   justify-content: flex-end;
   gap: 48px;
   margin-right: 48px;
-  padding-top: 113px;
+  padding-top: 130px;
   line-height: 1.2;
 }
 
