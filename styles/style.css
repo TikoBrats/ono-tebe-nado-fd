@@ -11,13 +11,12 @@
   list-style: none;
 }
 .header_menu_list {
-  margin-bottom: 3px;
+  margin-bottom: 6px;
   margin-left: 38px;
   font-size: 19px;
   display: flex;
   gap: 32px;
   list-style: circle;
-  padding: 0;
 }
 
 .header_menu_link {
