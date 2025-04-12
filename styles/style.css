@@ -28,7 +28,7 @@
 
 .header__menu_link {
   text-decoration: none;
-  margin-left: 6px;
+  margin-left: 7px;
 }
 
 .header_logo-image {
@@ -46,7 +46,8 @@
 }
 .address a {
   text-underline-offset: 4px;
-  padding-bottom: 2px;
+  padding-bottom: 4px;
+  padding-right: 2px;
 }
 
 .header_address {
@@ -275,7 +276,7 @@ z-index: 2;
 .contact_address {
   display: flex;
   padding-bottom: 94px;
-  padding-top: 152px;
+  padding-top: 155px;
   padding-left: 50px;
 }
 .footer_menu_list {
@@ -285,7 +286,7 @@ z-index: 2;
   list-style: none;
   font-size: 19px;
   text-underline-offset: 4px;
-  margin-top: 152px;
+  margin-top: 155px;
 }
 
 .footer__menu-link {
@@ -305,7 +306,7 @@ z-index: 2;
   justify-content: flex-end;
   gap: 48px;
   margin-right: 48px;
-  padding-top: 152px;
+  padding-top: 155px;
 }
 
 .footer_social-icon {
