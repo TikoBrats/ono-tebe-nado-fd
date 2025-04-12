@@ -274,10 +274,11 @@ z-index: 2;
   grid-template-columns:1fr 1fr 1fr;
   align-items: start;
   min-height: 180px;
+  padding-top: 230px;
 }
 .contact_address {
   padding-left: 50px;
- 
+  padding-bottom: 50px;
 }
 .footer_menu_list {
   display: flex;
@@ -286,7 +287,6 @@ z-index: 2;
   list-style: none;
   font-size: 18px;
   text-underline-offset: 4px;
- 
 }
 
 .footer__menu-link {
