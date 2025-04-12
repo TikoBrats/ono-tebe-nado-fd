@@ -6,7 +6,6 @@
   max-width: 1100px;
   padding-top: 90px;
   padding-bottom: 71px;
-  width: 100%;
 }
 .header_menu {
   list-style: none;
@@ -46,7 +45,7 @@
 }
 .address a {
   text-underline-offset: 4px;
-  padding-bottom: 4px;
+  padding-bottom: 3px;
   padding-right: 2px;
 }
 
@@ -65,7 +64,7 @@
   position: relative;
   margin-top: 20px;
   min-height: 757px;
-  padding: 165px 48px 48px;
+  padding: 165px 45px 47px;
   max-width: 1100px;
 }
 .overlay {
@@ -193,11 +192,12 @@
 
 .card_type_book {
   background-image: url("../images/card-lot-02.jpg");
+  margin-left: 3px;
 }
 
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-  margin-right: 23px;
+  margin-right: 24px;
 }
 
 .card__title {
